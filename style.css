@@ -4,7 +4,7 @@ body {
 a {
     text-decoration: none;
 }
-.et-hero-tabs, .et-slide {
+.et-hero-tabs, .et-slide  {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,3 +108,24 @@ a {
    border-color: transparent;
  }
 }
+
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  .java{width: 90%; background-color: #ffc60b;}
+  .html {width: 85%; background-color: #04AA6D;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 75%; background-color: #f44336;} /* Red */
+  .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+  .s1{
+      font-size: 2vh;
+  }
