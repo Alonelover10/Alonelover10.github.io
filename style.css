@@ -172,6 +172,18 @@ a {
     color: white;
     font-size: 2vh;
     transform: rotateY(180deg);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+  .flip-card-back p{
+    
+    
+    vertical-align: middle;
   }
 
   .row{
