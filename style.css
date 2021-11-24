@@ -168,8 +168,10 @@ a {
   }
   
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-image: radial-gradient(circle, #cfdcf0, #b6daf7, #93d9fa, #65d9f7, #12d9eb);
+    color: black;
+    font-style: bold;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 2vh;
     transform: rotateY(180deg);
     
@@ -195,4 +197,12 @@ a {
     display: table-cell;
   padding: 1vw;
     
+  }
+  .flip-card-back img{
+    height: 5vw;
+  }
+
+  .topic{
+    font-size: 3vh;
+    font-family: Fantasy;
   }
